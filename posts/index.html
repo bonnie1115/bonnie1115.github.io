@@ -101,7 +101,8 @@
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      #第一步 #第二步 #第三步 #第四步
+      安装  brew install hugo hugo version #验证是否安装成功 生成目录  hugo new site GitHub用户名.github.io(用户名小写) cd aaa.github.io git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke[这步有点慢] echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml 开始新增内容 hugo new posts/my-first-post.md 预览  hugo server -D 点击http://localhost:1313/ hugo -D 将hugo的public目录挂到网上和github关联  当前仓库忽略public 新建.gitignore 添加/public/   cd public git init git add . #add所有的文件 git commit 在github上再新建一个仓库 打开GitHub &ndash;&gt; 点击 new &mdash;&gt;填写仓库名 注意：仓库名必须是你的用户名.github.io
+本地命令行 git remote add origin https://github.
     </div>
   </div>
 </div>

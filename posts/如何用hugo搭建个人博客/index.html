@@ -26,22 +26,25 @@
     
     
     <meta property="og:title" content="如何用hugo搭建个人博客" />
-<meta property="og:description" content="#第一步 #第二步 #第三步 #第四步" />
+<meta property="og:description" content="安装  brew install hugo hugo version #验证是否安装成功 生成目录  hugo new site GitHub用户名.github.io(用户名小写) cd aaa.github.io git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke[这步有点慢] echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml 开始新增内容 hugo new posts/my-first-post.md 预览  hugo server -D 点击http://localhost:1313/ hugo -D 将hugo的public目录挂到网上和github关联  当前仓库忽略public 新建.gitignore 添加/public/   cd public git init git add . #add所有的文件 git commit 在github上再新建一个仓库 打开GitHub &ndash;&gt; 点击 new &mdash;&gt;填写仓库名 注意：仓库名必须是你的用户名.github.io
+本地命令行 git remote add origin https://github." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2020-02-23T13:41:29+08:00" />
 <meta property="article:modified_time" content="2020-02-23T13:41:29+08:00" />
 <meta itemprop="name" content="如何用hugo搭建个人博客">
-<meta itemprop="description" content="#第一步 #第二步 #第三步 #第四步">
+<meta itemprop="description" content="安装  brew install hugo hugo version #验证是否安装成功 生成目录  hugo new site GitHub用户名.github.io(用户名小写) cd aaa.github.io git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke[这步有点慢] echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml 开始新增内容 hugo new posts/my-first-post.md 预览  hugo server -D 点击http://localhost:1313/ hugo -D 将hugo的public目录挂到网上和github关联  当前仓库忽略public 新建.gitignore 添加/public/   cd public git init git add . #add所有的文件 git commit 在github上再新建一个仓库 打开GitHub &ndash;&gt; 点击 new &mdash;&gt;填写仓库名 注意：仓库名必须是你的用户名.github.io
+本地命令行 git remote add origin https://github.">
 <meta itemprop="datePublished" content="2020-02-23T13:41:29&#43;08:00" />
 <meta itemprop="dateModified" content="2020-02-23T13:41:29&#43;08:00" />
-<meta itemprop="wordCount" content="4">
+<meta itemprop="wordCount" content="75">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="如何用hugo搭建个人博客"/>
-<meta name="twitter:description" content="#第一步 #第二步 #第三步 #第四步"/>
+<meta name="twitter:description" content="安装  brew install hugo hugo version #验证是否安装成功 生成目录  hugo new site GitHub用户名.github.io(用户名小写) cd aaa.github.io git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke[这步有点慢] echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml 开始新增内容 hugo new posts/my-first-post.md 预览  hugo server -D 点击http://localhost:1313/ hugo -D 将hugo的public目录挂到网上和github关联  当前仓库忽略public 新建.gitignore 添加/public/   cd public git init git add . #add所有的文件 git commit 在github上再新建一个仓库 打开GitHub &ndash;&gt; 点击 new &mdash;&gt;填写仓库名 注意：仓库名必须是你的用户名.github.io
+本地命令行 git remote add origin https://github."/>
 
   </head>
 
@@ -132,10 +135,36 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>#第一步
-#第二步
-#第三步
-#第四步</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="安装">安装</h1>
+<pre><code> brew install hugo
+ hugo version #验证是否安装成功
+</code></pre><h1 id="生成目录">生成目录</h1>
+<pre><code> hugo new site GitHub用户名.github.io(用户名小写)
+ cd aaa.github.io
+ git init
+ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke[这步有点慢]
+ echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+</code></pre><h1 id="开始新增内容">开始新增内容</h1>
+<pre><code>hugo new posts/my-first-post.md 
+</code></pre><h1 id="预览">预览</h1>
+<pre><code> hugo server -D   
+ 点击http://localhost:1313/
+ hugo -D
+</code></pre><h1 id="将hugo的public目录挂到网上和github关联">将hugo的public目录挂到网上和github关联</h1>
+<ul>
+<li>当前仓库忽略public  新建.gitignore  添加/public/</li>
+</ul>
+<pre><code> cd public
+ git init
+ git add . #add所有的文件
+ git commit 
+</code></pre><h1 id="在github上再新建一个仓库">在github上再新建一个仓库</h1>
+<p>打开GitHub &ndash;&gt; 点击 new  &mdash;&gt;填写仓库名 注意：仓库名必须是你的用户名.github.io</p>
+<h1 id="本地命令行">本地命令行</h1>
+<pre><code>git remote add origin https://github.com/bonnie1115/bonnie1115.github.io.git
+git push -u origin master
+</code></pre><p>刷新github &ndash;&gt;点击settings 找到自己的网站</p>
+<p>ps:参考官方文档 <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
 <ul class="pa0">
   
 </ul>
