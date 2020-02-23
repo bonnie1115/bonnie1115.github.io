@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
+    <link>https://bonnie1115.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Feb 2020 13:41:29 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bonnie1115.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>如何用hugo搭建个人博客</title>
-      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://bonnie1115.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 23 Feb 2020 13:41:29 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://bonnie1115.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>安装  brew install hugo hugo version #验证是否安装成功 生成目录  hugo new site GitHub用户名.github.io(用户名小写) cd aaa.github.io git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke[这步有点慢] echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml 开始新增内容 hugo new posts/my-first-post.md 预览  hugo server -D 点击http://localhost:1313/ hugo -D 将hugo的public目录挂到网上和github关联  当前仓库忽略public 新建.gitignore 添加/public/   cd public git init git add . #add所有的文件 git commit 在github上再新建一个仓库 打开GitHub &amp;ndash;&amp;gt; 点击 new &amp;mdash;&amp;gt;填写仓库名 注意：仓库名必须是你的用户名.github.io
 本地命令行 git remote add origin https://github.</description>
     </item>
