@@ -6,10 +6,22 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Feb 2020 22:28:09 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2020 22:38:46 +0800</lastBuildDate>
     
 	<atom:link href="https://bonnie1115.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Collection笔记</title>
+      <link>https://bonnie1115.github.io/posts/collection%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sun, 23 Feb 2020 22:38:46 +0800</pubDate>
+      
+      <guid>https://bonnie1115.github.io/posts/collection%E7%AC%94%E8%AE%B0/</guid>
+      <description>List 有顺序的，可重复
+Set 无序的，不能包含重复元素
+java世界里的第二重要的约定：HashCode
+ 同一个对象必须始终返回相同的HashCode 两个对象的equals返回true，必须返回相同的HashCode 两个对象不相等，也可能返回相同的HashCode eg:张三，张三丰 &amp;ndash;》张 哈希是一个单向映射 张三&amp;mdash;》张，但是张不能定位到张三  </description>
+    </item>
     
     <item>
       <title>Maven包冲突笔记</title>
